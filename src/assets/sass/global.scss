@@ -1,0 +1,35 @@
+@import "variables";
+.app {
+    min-height: 100vh;
+    font-family: nunito-sans, sans-serif !important;
+    &.light{
+      background-color: hsl(0, 0%, 98%);
+      color:hsl(200, 15%, 8%);
+      a{
+        color:hsl(200, 15%, 8%);
+        text-decoration: none;
+      }
+      input{
+        color:hsl(0, 0%, 52%);
+      }
+    }
+    &.dark{
+      background-color: hsl(207, 26%, 17%);
+      color:hsl(0, 0%, 100%);
+      a{
+        color:hsl(0, 0%, 100%);
+        text-decoration: none;
+      }
+      input, select{
+        background-color: hsl(207, 26%, 17%);
+        color:hsl(0, 0%, 100%);
+      }
+      option{
+        color:hsl(0, 0%, 100%);
+      }
+      svg{
+          fill:hsl(0, 0%, 100%);
+      }
+    }
+
+}
